@@ -1,5 +1,13 @@
 html, body {
-  margin, padding: 0;
+  margin: 0; 
+  padding: 0;
+  background: url("/images/pokeball.png") no-repeat center;
+  font-family: Sans-Serif;
+  color: #FFF;
+}
+
+h5 {
+  padding-left: 25%;
 }
 
 .hidden {
@@ -8,4 +16,23 @@ html, body {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.row {
+  padding-top: 12rem;
+}
+
+.col-right {
+  padding-left: 8rem;
+}
+
+.strong {
+  font-weight: bold;
 }
